@@ -49,6 +49,8 @@ go_last_page(driver)
 problem_count = get_last_problem_index(driver)
 problem_index = get_a_problem(problem_count)
 
+driver.close()
+
 
 print(problem_index)
 
