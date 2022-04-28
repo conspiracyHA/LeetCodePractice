@@ -7,3 +7,6 @@ def path_join(*args):
     return path.join(x, *args)
 
 
+if __name__ == '__main__':
+    print(path_join('problems'))
+
